@@ -1,0 +1,64 @@
+.card {
+  float: left;
+  margin: 10px;
+  
+ }
+  .card1 {
+    color: black;
+    background-color: #65c2dc;
+ }   
+ 
+  .card2 {
+    color: white;
+    background-color: #eebc40;
+ }
+
+  .card3 {
+    color: white;
+    background-color: #269f5d;
+ }
+  
+
+  .card1, .card2, .card3
+  {
+    
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 120px;
+    font-family: sans-serif;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-stretch:semi-condensed;
+ }
+
+ .name {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 60px;
+    text-indent: 10px;
+    box-shadow: 0px 2px 5px gray;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+ }
+
+ .butre {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: #4d88ef;
+    font-size: 20px;
+    font-weight:bold;
+    position: relative;
+    left: 80px;
+    top: -30px;
+    border: 1px solid #4d88ef;
+        
+ }
+
+        
+ 
+ 
