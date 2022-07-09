@@ -13,34 +13,36 @@
       Запись на курсы программирования
     </header>
 
-    <form>
+    <form method="post">
       
       <div>Имя:</div>
-      <input id = "1" type="search" placeholder="Андрей" required>
+      <input id = "1" type="search" placeholder="Андрей" value="Имя" required>
       
       <fieldset>
-				<input id = "2" name="radio" type="radio"  checked >Java
-        <input id = "3" name="radio" type="radio">C++
-        <input id = "4" name="radio" type="radio">Python
-        <input id = "5" name="radio" type="radio">PHP
-        <input id = "5" name="radio" type="radio">JavaScript
+				<input id = "2" name="radio" type="radio" value="Java" checked >Java
+        <input id = "3" name="radio" type="radio" value="C++">C++
+        <input id = "4" name="radio" type="radio" value="Python">Python
+        <input id = "5" name="radio" type="radio" value="PHP">PHP
+        <input id = "5" name="radio" type="radio" value="JavaScript">JavaScript
 			</fieldset>
       
       <div>Дополнительная информация:</div>
-      <textarea placeholder="Есть опыт программирования на Java"></textarea>
+      <textarea placeholder="Есть опыт программирования на Java" ></textarea>
       
       <div>Секретное слово:</div>
-      <input id = "7" type="password" required>
+      <input id = "7" type="password" value="Секретное слово:" required>
         <div>
-        <input id = "Agree" type="checkbox" required>
+        <input id = "Agree" type="checkbox" value="C правилами ознокомлен и согласен" required>
         <label for = "Agree">С правилами ознокомлен и согласен</label>
         </div>
 
-      <input id = "9" type="submit">
-      <input id = "10" type="reset">
+      <input id = "9" type="submit" value="Отправить">
+      <input id = "10" type="reset" value="Очистить">
      
     </form>
     
+      
+    </form>
     <footer>
       <p>Made in China</p>
     </footer>
